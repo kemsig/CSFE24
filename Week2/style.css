@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw; 
+    height: 100vh; 
+    margin: 0; 
+    justify-content: center; 
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    width: 125vh;
+    flex-direction: row;
+}
+
+.button_container {
+    flex: 1;
+    background-color: aliceblue;
+    padding: 20px;
+
+}
+
+.translated_container {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(170, 185, 199);
+
+}
+
